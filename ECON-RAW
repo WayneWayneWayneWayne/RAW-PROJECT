@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #bb9457;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  height: 80%;
+}
+nav {
+  float: left;
+  width: 20%;
+  background: #dda15e;
+  padding: 20px;
+  height: 1000px;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #fefae0;
+  height: 1000px;
+ 
+ 
+}
+.image-right {
+float: right;
+margin-left: 15px;
+}
+  .image-left {
+float: left ;
+margin-right: 15px;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+IMG{
+  max-width:15%;
+  height:auto;
+
+
+}
+</style>
+<body>
+<header>
+<h1>The Renaissance in Northern Europe </h1>
+</header>
+<nav>
+<p></p>
+</nav>
+
+
+<article>
+
+
+<p>In Northern Europe, the advent of the renaissance caused the formation of new banks, trade routes, and manufacturing systems. While the Middle Ages were feudal after the Rencinace, the first signs of capitalism began appearing in Northern Europe. While serfs in the Middle Ages were tied to their lords, eventually, the serfs were granted the freedom to choose where they worked, forcing lords to pay higher incomes to attract more workers. 
+</p>
+
+
+<IMG SRC="Gleaners.jpg" class="image-right" />
+
+
+<p>At one point, Germany was the center of tin, silver, and iron for their mines, thus having an abundance of metal coins to use. This industry continued until the age of exploration, as German tin, silver, and iron became unprofitable after the importing of Spanish silver from the New World.</p>
+
+<br>
+<small>Millet, Jean-François<i>The Gleaners</i>i>.1857.</i>Musée d'Orsay<i>https://artsandculture.google.com/asset/gleaners/GgHsT2RumWxbtw</small>
+</article>
+
+
+
+
+</body>
+</html>
+
+
