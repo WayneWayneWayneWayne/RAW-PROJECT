@@ -1,0 +1,88 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #bb9457;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  height: 80%;
+}
+nav {
+  float: left;
+  width: 20%;
+  background: #dda15e;
+  padding: 20px;
+  height: 1000px;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 80%;
+  background-color: #fefae0;
+  height: 1000px;
+ 
+ 
+}
+.image-right {
+float: right;
+margin-left: 15px;
+}
+  .image-left {
+float: left ;
+margin-right: 15px;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+IMG{
+  max-width:15%;
+  height:auto;
+
+
+}
+</style>
+<body>
+<header>
+<h1>The Renaissance in Northern Europe </h1>
+</header>
+<nav>
+<p></p>
+</nav>
+
+
+<article>
+
+
+<p>A good example of Northern European architecture is Chartreuse de Champmol. The Chartreuse de Champmol is a monastery built in the 14th century meant to serve the Dukes of Burgundy. It incorporated Northern Realism and European gothic styles.Gothic architecture featured asymmetry, sharp curves, and grand, tall designs, which were meant to be imposing. 
+</p>
+
+
+<IMG SRC="CHARTREUSE_DE_CHAMPMOL.JPG" class="image-right" />
+
+
+<p>Most grand buildings in Northern Europe built during the renaissance were gothic.In England especially, the idea of a pointed arch was used extensively In Fact, they created a “Tudor Arch”, which was very wide and ended at a sharp point .One building which implements the Tudor Arch is King’s college, which had many of its windows in this design.</p>
+<IMG src="KingsCollegeChapel.jpg" class="image-left" />
+<br>
+<small>Welleschik. <i>CHARTREUSE_DE_CHAMPMOL.</i> Aug. 2004. <i>Wikimedia</i>, https://commons.wikimedia.org/wiki/File:CHARTREUSE_DE_CHAMPMOL.JPG. Accessed 11 Mar. 2025, Richdat, Christan <i>KingsCollegeChapel</i> 13 Nov 2004.<i>Wikimedia</i>https://commons.wikimedia.org/wiki/File:KingsCollegeChapel.jpg</small>
+</article>
+
+
+
+
+</body>
+</html>
+
